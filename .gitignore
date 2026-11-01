@@ -1,0 +1,28 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+profiles.yml
+profiles.yml.*
+.user.yml
+
+# Python
+__pycache__/
+*.pyc
+
+# dbt build output
+target/
+dbt_packages/
+dbt_modules/
+logs/
+
+# Excel lock files
+~$*.xls*
+~$*.xlsx
+~$*.xlsm
+
+# OS
+.DS_Store
+Thumbs.db
